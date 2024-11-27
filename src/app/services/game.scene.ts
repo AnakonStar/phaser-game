@@ -8,6 +8,8 @@ export class GameScene extends Phaser.Scene {
   private closeBtn = document.querySelector('.modal-close');
   bullets!: Phaser.Physics.Arcade.Group;
 
+  // Teste
+
   // New properties for shooting cooldown and state
   private shootCooldownTime = 300; // Cooldown time in milliseconds
   private canShoot = true; // Flag to check if the player can shoot
